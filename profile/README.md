@@ -14,15 +14,15 @@ All repos below are private; walkthroughs on request.
 
 ## HomeWorld
 
-The stills below are official greybox lookdev shots from the HomeWorld shotlist (`Maps/Preview_Homestead_Night` and `Maps/Preview_Lookout_To_Planet`, 16 Sep 2026). They are real captures, not generated art.
+HomeWorld key art: a homestead in the sky, a descent to the planet, and what waits below.
 
 <p>
-<img src="https://raw.githubusercontent.com/DreamStead/.github/main/profile/assets/shot1_lookout.jpg" alt="Shot 1 — lookout at night, homestead and the path to the planet" width="49%">
-<img src="https://raw.githubusercontent.com/DreamStead/.github/main/profile/assets/shot2_cabin_garden.jpg" alt="Shot 2 — cabin and garden at night" width="49%">
+<img src="https://raw.githubusercontent.com/DreamStead/.github/main/profile/assets/keyart_dusk.jpg" alt="HomeWorld key art: the homestead at dusk, the portal and the stone guardian" width="49%">
+<img src="https://raw.githubusercontent.com/DreamStead/.github/main/profile/assets/keyart_planetside.jpg" alt="HomeWorld key art: the floating homestead above the planet" width="49%">
 </p>
 <p>
-<img src="https://raw.githubusercontent.com/DreamStead/.github/main/profile/assets/shot3_glide_depart.jpg" alt="Shot 3 — glide departure from the homestead" width="49%">
-<img src="https://raw.githubusercontent.com/DreamStead/.github/main/profile/assets/shot4_landing_day.jpg" alt="Shot 4 — daytime landing on the planet" width="49%">
+<img src="https://raw.githubusercontent.com/DreamStead/.github/main/profile/assets/keyart_character.jpg" alt="HomeWorld key art: the hero outside the cabin" width="49%">
+<img src="https://raw.githubusercontent.com/DreamStead/.github/main/profile/assets/keyart_lair.jpg" alt="HomeWorld key art: the guardian's lair" width="49%">
 </p>
 
 ## MCP Test Bridge
