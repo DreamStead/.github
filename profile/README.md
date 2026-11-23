@@ -1,58 +1,38 @@
 # DreamStead
 
-<p align="center"><img src="https://raw.githubusercontent.com/DreamStead/.github/main/profile/assets/banner-1280x640.png" alt="DreamStead, powered by DreamFlow" width="720"></p>
+<p align="center"><img src="assets/banner-1280x640.png" alt="DreamStead" width="720"></p>
 
-A small studio building a software factory for one developer, and the game that factory is used on.
+A small software studio in Hamilton, Ontario. We take on Unreal Engine contract work, billed by the hour.
+
+[dreamstead.ca](https://dreamstead.ca) · [Services](https://dreamstead.ca/services) · [Work](https://dreamstead.ca/work) · [DreamFlow](https://dreamstead.ca/dreamflow) · [About](https://dreamstead.ca/about)
 
 ## DreamFlow
 
 **A software factory that assembles itself from its own failures.**
 
-DreamFlow takes one developer's vague idea to low-bug code that matches intent, in small test-first PRs that a gate merges only when the proof holds. It treats model output as a guess, never as proof. Every change, including changes to DreamFlow itself, follows ten steps: define, question, delete, simplify, bound, measure, accelerate, wire, automate, evolve.
+DreamFlow is a development system for one person. It helps take a rough request and turn it into a small, tested change that can be merged into the main project. It treats model output as a guess, never as proof.
 
-**Live, measured 21 Nov 2026**
+DreamFlow is not for sale, and it is not offered as a service yet. It is used on Luke's own work, including the studio's game. Client Unreal work is still done by a person, as contract development.
 
-- 340 merged PRs since 15 Nov 2026, 312 of them shipped by DreamFlow's own Shipper, every one at 5 files or fewer.
-- Over the last 20 merges, a ready spec reached `main` in a median 61.9 minutes; the last 50 CI runs were green.
-- 0 clear escaped bugs in 60 merges (audit of 20 Nov 2026).
-- Specs capped at 5 files, acceptance tests that fail first and are frozen by hash, and a five-guard auto-merge gate.
-- Failures already become routed fix rows, and a hold stops one row instead of the whole lane.
+A short overview, including slides, is on [the DreamFlow page](https://dreamstead.ca/dreamflow).
 
-Weak spots on the same date: 59 of 156 drafts ended on a model quota error, and two thirds of builder tokens go to reading before the first edit. Both have queued fixes.
+Every change, including changes to DreamFlow itself, follows the same ten steps: define, question, delete, simplify, bound, measure, accelerate, wire, automate, evolve.
 
-**Queued, not shipped:** a queue doctor that checks, repairs and reorders the queue on its own; a usage preflight before each model call; two competing build variants after a failed build; and an adversarial review of design specs.
+The path a change follows: a request comes in; a short written plan is made (one piece of work, at most five files); tests are written first, must fail, and are then locked; the change is built; automatic checks have to pass; if they pass, the change can merge, and if they fail, the work is repaired or set aside. It does not go around the checks.
 
-**Vision:** a parts shelf where each part carries its lineage and fitness, a rebuild of nektos/act from one intake statement with no human stops, and a full feature driven from the phone.
-
-<p align="center"><img src="https://raw.githubusercontent.com/DreamStead/.github/main/profile/assets/dreamflow-flow.png" alt="DreamFlow Lane Pump flow: idea, intake, queue, spec drafter, staging checks, red-first frozen tests, builder hop, CI, auto-merge gate and main; failures go to repair hops or a per-row hold and become fix rows. Dashed boxes are queued, not shipped." width="640"></p>
-
-Solid boxes in the diagram are live, with the PR that shipped them; dashed boxes are queued.
+Taste, look, new ideas, architectural direction, and safety decisions stay with the person.
 
 ## Work
 
-All repos below are private; walkthroughs on request.
+**HomeWorld** is a private Unreal Engine 5.8 / C++ game, in development since February 2026: a homestead in the sky, a descent to the planet, and the loop between them. Key art and a fuller note are on [the Work page](https://dreamstead.ca/work).
 
-- **DreamFlow:** the software factory above.
-- **HomeWorld:** an Unreal Engine 5.8 game built with that pipeline: a homestead in the sky, a descent to the planet, and the loop between them.
-- **MCPTestBridge:** a UE 5.8 editor plugin (intended for Fab) that adds a test-and-safety loop for agent-driven editor work.
-- **Tether:** a phone console for status, holds and approvals on the desktop pump.
-- **DreamBox:** the earlier gray-box automation harness, DreamFlow's predecessor.
-
-## HomeWorld
-
-HomeWorld key art: a homestead in the sky, a descent to the planet, and what waits below.
+The product repositories in this organization are private.
 
 <p>
-<img src="https://raw.githubusercontent.com/DreamStead/.github/main/profile/assets/keyart_dusk.jpg" alt="HomeWorld key art: the homestead at dusk, the portal and the stone guardian" width="49%">
-<img src="https://raw.githubusercontent.com/DreamStead/.github/main/profile/assets/keyart_planetside.jpg" alt="HomeWorld key art: the floating homestead above the planet" width="49%">
+<img src="assets/keyart_dusk.jpg" alt="HomeWorld key art: the homestead at dusk, the portal and the stone guardian" width="49%">
+<img src="assets/keyart_planetside.jpg" alt="HomeWorld key art: the floating homestead above the planet" width="49%">
 </p>
 <p>
-<img src="https://raw.githubusercontent.com/DreamStead/.github/main/profile/assets/keyart_character.jpg" alt="HomeWorld key art: the hero outside the cabin" width="49%">
-<img src="https://raw.githubusercontent.com/DreamStead/.github/main/profile/assets/keyart_lair.jpg" alt="HomeWorld key art: the guardian's lair" width="49%">
+<img src="assets/keyart_character.jpg" alt="HomeWorld key art: the hero outside the cabin" width="49%">
+<img src="assets/keyart_lair.jpg" alt="HomeWorld key art: the guardian's lair" width="49%">
 </p>
-
-## MCP Test Bridge
-
-MCPTestBridge is a private Unreal Engine 5.8 editor plugin, intended for Fab. It adds a test-and-safety loop for agent-driven editor work: run Automation tests, drive Play-In-Editor, run a headless CI commandlet, and roll back agent edits. It is not a copilot and does not generate content.
-
-Status on `main` (plugin version 0.1.0): a skeleton, with the `.uplugin` descriptor, an Editor-only Win64 module, a transport-agnostic tool registry, and one Automation test. The test runner (M1), PIE control (M2), CI commandlet (M3) and rollback (M4) are specified and still planned. It has not been submitted to Fab.
