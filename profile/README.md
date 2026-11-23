@@ -2,31 +2,31 @@
 
 <p align="center"><img src="assets/banner-1280x640.png" alt="DreamStead" width="720"></p>
 
-A small software studio in Hamilton, Ontario. We take on Unreal Engine contract work, billed by the hour.
+A small Unreal Engine studio in Hamilton, Ontario. Hand us the messy idea; we hand back small pieces that work.
 
 [dreamstead.ca](https://dreamstead.ca) · [Services](https://dreamstead.ca/services) · [Work](https://dreamstead.ca/work) · [DreamFlow](https://dreamstead.ca/dreamflow) · [About](https://dreamstead.ca/about) · [X](https://x.com/DreamSteadDev) · [hello@dreamstead.ca](mailto:hello@dreamstead.ca)
 
-## DreamFlow
+## What we build: DreamFlow
 
 **A software factory that assembles itself from its own failures.**
 
-DreamFlow is a development system for one person. It helps take a rough request and turn it into a small, tested change that can be merged into the main project. It treats model output as a guess, never as proof.
+DreamFlow is our command-line harness for coding agents. A rough idea goes in; a small, tested, merged change comes out. Every agent answer is a guess until the tests say otherwise.
 
-DreamFlow is not for sale, and it is not offered as a service yet. It is used on Luke's own work, including the studio's game. Client Unreal work is still done by a person, as contract development.
+It runs itself from plan to merge, on Luke's own projects. It isn't for sale; client Unreal work is done by a person.
 
-A short overview, including slides, is on [the DreamFlow page](https://dreamstead.ca/dreamflow).
+**Running today:** short plans capped at five files · tests written first, failing, then locked · a merge gate that opens only on green checks and untouched tests · repair loops that fix or shelve failed work · a failure holds only its own job · a meter on every step for time, tokens and spend · the model is a config setting.
 
-Every change, including changes to DreamFlow itself, follows the same ten steps: define, question, delete, simplify, bound, measure, accelerate, wire, automate, evolve.
+**Next up:** any model, any provider · failures that turn into fixes on their own · leaner agents that read less and build sooner.
 
-The path a change follows: a request comes in; a short written plan is made (one piece of work, at most five files); tests are written first, must fail, and are then locked; the change is built; automatic checks have to pass; if they pass, the change can merge, and if they fail, the work is repaired or set aside. It does not go around the checks.
+Every change follows the same ten rules: define, question, delete, simplify, bound, measure, accelerate, wire, automate, evolve.
 
-Taste, look, new ideas, architectural direction, and safety decisions stay with the person.
+Taste, look, new ideas and the last word on safety stay with Luke. The slides and the full story are on [the DreamFlow page](https://dreamstead.ca/dreamflow).
 
-## Work
+## On the workbench
 
-**HomeWorld** is a private Unreal Engine 5.8 / C++ game, in development since February 2026: a homestead in the sky, a descent to the planet, and the loop between them. Key art and a fuller note are on [the Work page](https://dreamstead.ca/work).
+**HomeWorld** is our private Unreal Engine 5.8 / C++ prototyping ground for a game Luke has in mind, not a finished game: a homestead in the sky, a long drop to the planet, and the loop between. Key art is on [the Work page](https://dreamstead.ca/work).
 
-The product repositories in this organization are private.
+Our product repos are private. The story lives on dreamstead.ca.
 
 <p>
 <img src="assets/keyart_dusk.jpg" alt="HomeWorld key art: the homestead at dusk, the portal and the stone guardian" width="49%">
