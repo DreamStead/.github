@@ -12,7 +12,7 @@ A small Unreal Engine studio in Hamilton, Ontario. Hand us the messy idea; we ha
 
 DreamFlow is our command-line harness for coding agents. A rough idea goes in; a small, tested, merged change comes out. Every agent answer is a guess until the tests say otherwise.
 
-It runs itself from plan to merge, on Luke's own projects. It isn't for sale; client Unreal work is done by a person.
+It runs itself from plan to merge, on our own projects. It isn't for sale; client Unreal work is done by a person.
 
 **Running today:** short plans capped at five files · tests written first, failing, then locked · a merge gate that opens only on green checks and untouched tests · repair loops that fix or shelve failed work · a failure holds only its own job · a meter on every step for time, tokens and spend · the model is a config setting.
 
@@ -20,11 +20,11 @@ It runs itself from plan to merge, on Luke's own projects. It isn't for sale; cl
 
 Every change follows the same ten rules: define, question, delete, simplify, bound, measure, accelerate, wire, automate, evolve.
 
-Taste, look, new ideas and the last word on safety stay with Luke. The slides and the full story are on [the DreamFlow page](https://dreamstead.ca/dreamflow).
+Taste, look, new ideas and the last word on safety stay with us. The slides and the full story are on [the DreamFlow page](https://dreamstead.ca/dreamflow).
 
 ## On the workbench
 
-**HomeWorld** is our private Unreal Engine 5.8 / C++ prototyping ground for a game Luke has in mind, not a finished game: a homestead in the sky, a long drop to the planet, and the loop between. Key art is on [the Work page](https://dreamstead.ca/work).
+**HomeWorld** is our private Unreal Engine 5.8 / C++ prototyping ground for a game we have in mind, not a finished game: a homestead in the sky, a long drop to the planet, and the loop between. Key art is on [the Work page](https://dreamstead.ca/work).
 
 Our product repos are private. The story lives on dreamstead.ca.
 
